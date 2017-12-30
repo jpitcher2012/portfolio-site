@@ -1,0 +1,78 @@
+.container {
+	max-width: 1000px;
+	min-width: 400px;
+	margin: 15px auto 15px auto;
+}
+
+body {
+	color: #2d3c49;
+}
+
+h1 {
+	font-family: Raleway, sans-serif;
+	font-weight: 200;
+	font-size: 300%;
+	letter-spacing: 4px;
+	margin-bottom: -5px;
+}
+
+h2 {
+	font-size: 200%;
+	margin-bottom: -5px;
+}
+
+h3 {
+	color: #7d97ad;
+	font-family: Verdana, sans-serif;
+	font-size: 200%;
+	letter-spacing: 2px;
+}
+
+h4 {
+	font-family: Raleway, sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+a {
+	color: #2d3c49;
+}
+
+header {
+	border-bottom: 4px solid #7d97ad;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+header img {
+	float: left;
+}
+
+figure {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+figure img {
+	padding-bottom: 5px;
+}
+
+#main-image {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+@media print, screen and (max-width: 48em) {
+	figure img { max-width: 66%; }
+}
+
+@media print, screen and (min-width: 48em) {
+	figure img { max-width: 100%; }
+}
+
+@media print, screen and (max-width: 31em) {
+	h1 { font-size: 225%; }
+	h2, h3 { font-size: 150%; }
+	h4 { font-size: 100%; }
+}
